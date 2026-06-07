@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verde Hotel Purwokerto</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f5f0;
+      color: #333;
+    }
+    header {
+      background-color: #4a3c2a;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .rooms {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .room {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .room h3 {
+      margin-top: 0;
+      color: #4a3c2a;
+    }
+    .amenities {
+      margin-top: 2rem;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+    footer {
+      background-color: #4a3c2a;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Verde Hotel Purwokerto</h1>
+    <p>Vintage and Comfortable</p>
+  </header>
+
+  <div class="container">
+    <h2>Room Rates</h2>
+    <div class="rooms">
+      <div class="room">
+        <h3>Deluxe Plus Room</h3>
+        <p>Rp.306.000,- incl. tax</p>
+      </div>
+      <div class="room">
+        <h3>Deluxe Room</h3>
+        <p>Rp.279.000,- incl. tax</p>
+      </div>
+      <div class="room">
+        <h3>Superior Room (Shared Bathroom)</h3>
+        <p>Rp.243.000,- incl. tax</p>
+      </div>
+    </div>
+
+    <div class="amenities">
+      <h2>Facilities</h2>
+      <ul>
+        <li>Free Breakfast for Two</li>
+        <li>Free Mineral Water</li>
+        <li>Air Conditioning</li>
+        <li>42" TV with Cable</li>
+        <li>Free Wifi</li>
+        <li>Hot and Cold Shower</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>Jl. KH Safi 1, Kebondalem Purwokerto</p>
+    <p>For reservation and information, please call: <a href="tel:08112757576">0811-2757-576</a></p>
+  </footer>
+</body>
+</html>
